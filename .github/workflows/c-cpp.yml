@@ -40,5 +40,5 @@ jobs:
          vsversion: "2019"
      - name: Build
        run: |
-          ls
+          msbuild 'GH Injector GUI.sln'
       
