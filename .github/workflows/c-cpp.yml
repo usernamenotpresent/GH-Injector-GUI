@@ -36,5 +36,5 @@ jobs:
      - uses: ilammy/msvc-dev-cmd@v1
      - name: Build
        run: |
-          msbuild '${{ github.workspace }}/GH Injector GUI.sln'
+          msbuild 'GH Injector GUI.sln'
       
