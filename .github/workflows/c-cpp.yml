@@ -34,7 +34,9 @@ jobs:
          extra: '--external 7z'
 
      - uses: ilammy/msvc-dev-cmd@v1
+       with:
+         vsversion: "2019"
      - name: Build
        run: |
-          msbuild 'GH Injector GUI.sln'
+          msbuild 'GH-Injector-GUI/GH Injector GUI.sln'
       
